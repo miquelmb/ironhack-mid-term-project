@@ -1,0 +1,125 @@
+* {
+    background-color: #F2F4FC;
+    padding: 0px;
+    max-width: 1100px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;   
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* navbar specific CSS */
+
+#navbar {
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+
+#navbar img {
+    width: 55px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-between;    
+}
+
+li {
+    list-style: none;
+    justify-content: space-between;
+    color: #6B708D;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #6B708D;
+}
+
+.home-a {
+    color: #0082f3;
+}
+
+a:visited{
+    color: none;
+}
+
+a:hover {
+    color: #072AC8;
+}
+
+#contact-us-button {
+    background-color: #072AC8;
+    color: #FFF;
+    width: 120px;
+    text-align: center;
+    align-self: center;
+    padding: 15px;
+    margin: 2px
+}
+
+#contact-us-button:hover{
+    background-color: #6B708D;
+}
+
+/* section 1 specific CSS */
+
+#empower {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+}
+
+#empower-images {
+    max-width: 550px;
+    position: relative;
+}
+
+#empower-texts {
+    width: 550px;
+}
+
+.powr-icon0 {
+    width: 590px;
+}
+
+.powr-icon1, .powr-icon2 {
+    position: absolute;
+    width: 290px;
+}
+
+.powr-icon1 {
+    top: 30px;
+}
+
+
+/* modificar después, solo para que no molesten */
+.card img {
+    width: 300px;
+}
+
