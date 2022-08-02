@@ -1,10 +1,9 @@
-* {
+/* Universal classes */
+body {
     background-color: #F2F4FC;
-    padding: 0px;
-    max-width: 1100px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;   
+    font-size: 17px; 
 }
 
 h1 {
@@ -27,9 +26,21 @@ h4 {
     font-weight: 700;
 }
 
+.heading {
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.text1 {
+    font-size: 20px;
+    color: #6b708d;
+    line-height: 150%;
+}
+
 /* navbar specific CSS */
 
 #navbar {
+    max-width: 1100px;
     margin: auto;
     margin-top: 70px;
     display: flex;
@@ -87,39 +98,176 @@ a:hover {
     background-color: #6B708D;
 }
 
+
 /* section 1 specific CSS */
 
 #empower {
+    max-width: 1100px;
+    margin: auto;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 170px;
     display: flex;
+    justify-content: space-between;
 }
 
-#empower-images {
-    max-width: 550px;
+#empower-texts-container {
+    max-width: 510px;
+}
+
+#empower-buttons{
+    margin: 40px 20px 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#empower-buttons a{
+    margin: 20px 20px 20px 0px;
+}
+
+.blue-button {
+    margin: 20px;
+    padding: 12px 18px 12px 18px;
+    background-color: #072AC8;
+    color: #FFF;
+}
+
+.blue-button:hover{
+    background-color: #6B708D;
+    color: #6B708D;
+}
+
+#empower-images-container {
+    max-width: 510px;
+    width: 100%;
     position: relative;
 }
 
-#empower-texts {
-    width: 550px;
-}
-
 .powr-icon0 {
-    width: 590px;
-}
-
-.powr-icon1, .powr-icon2 {
-    position: absolute;
-    width: 290px;
+    width: 100%;
+    position:relative;
 }
 
 .powr-icon1 {
-    top: 30px;
+    position: absolute;
+    max-width: 280px;
+    top: -20px;
+    left: -70px;
 }
 
-
-/* modificar después, solo para que no molesten */
-.card img {
-    width: 300px;
+.powr-icon2 {
+    position: absolute;
+    max-width: 260px;
+    bottom: -80px;
+    left: 350px;
 }
 
+/* Five companies logos */
+#five-companies{
+    margin: auto;
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Recent projects */
+#recent-projects {
+    margin: auto;
+    max-width: 1100px;
+    margin-top: 200px;
+}
+
+#cards-recent-projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 340px;
+    height: 440px;
+    background-color: white;
+}
+
+.recent-projects-image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.card-text {
+    margin: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.card-link {
+    display: block;
+    margin-top: 40px;
+    color: #072AC8;
+    font-weight: 500;
+}
+
+/* Hear what our clients have to say */
+
+#clients {
+    margin: auto;
+    position: relative;
+    margin-top: 200px;
+    max-width: 1320px;
+    width: 100%;
+    height: 622px;
+    background-color: #292e47;
+    background-image: url('https://res.cloudinary.com/mmabof89/image/upload/v1659360785/Ironhack%20Mid%20Term%20Project/Testimonial%20Section/orbit_kpu7iz.png;');
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+#clients-text {
+    height: 100%;
+    max-height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#clients-text h3 {
+    color: #ecf7ff;
+}
+
+#clients-text > h4 {
+    color: #ffc600;
+    max-width: 560px;
+    line-height: 160%;
+    text-align: center;
+
+}
+
+#clients-card {
+    display: flex;
+}
+
+.client-name {
+    color: #a2d6f9;
+    margin-left: 4px;
+}
+
+#clients-card-text span {
+    color: #ecf7ff;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.clients-card-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.clients-icons {
+    position: absolute;
+}
