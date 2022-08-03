@@ -111,7 +111,7 @@ a:hover {
 }
 
 #empower-texts-container {
-    max-width: 510px;
+    max-width: 530px;
 }
 
 #empower-buttons{
@@ -137,34 +137,40 @@ a:hover {
 }
 
 #empower-images-container {
-    max-width: 510px;
+    max-width: 560px;
     width: 100%;
     position: relative;
-}
-
-.powr-icon0 {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+    background-image: url(https://res.cloudinary.com/mmabof89/image/upload/v1659360713/Ironhack%20Mid%20Term%20Project/Hero%20Section/hero-image_pytsuu.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .powr-icon1 {
     position: absolute;
-    display: inline-block;
-    max-width: 280px;
-    top: -20px;
-    left: -70px;
-    right: auto;
-    bottom: auto;
-    vertical-align: middle;
+    background-image: url(https://res.cloudinary.com/mmabof89/image/upload/v1659360712/Ironhack%20Mid%20Term%20Project/Hero%20Section/card-1_tlb2zv.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 210px;
+    max-height: 230px;
+    width: 100%;
+    height: 100%;
+    left: -20px;
 }
 
 .powr-icon2 {
     position: absolute;
-    display: inline-block;
-    max-width: 260px;
-    bottom: -80px;
-    left: 350px;
+    background-image: url(https://res.cloudinary.com/mmabof89/image/upload/v1659360712/Ironhack%20Mid%20Term%20Project/Hero%20Section/card-2_j28dj4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 200px;
+    max-height: 250px;
+    width: 100%;
+    height: 100%;
+    bottom: -100px;
+    right: -30px;
 }
 
 /* Five companies logos */
@@ -226,7 +232,7 @@ a:hover {
     width: 100%;
     height: 622px;
     background-color: #292e47;
-    background-image: url('https://res.cloudinary.com/mmabof89/image/upload/v1659360785/Ironhack%20Mid%20Term%20Project/Testimonial%20Section/orbit_kpu7iz.png;');
+    background-image: url('https://res.cloudinary.com/mmabof89/image/upload/v1659360785/Ironhack%20Mid%20Term%20Project/Testimonial%20Section/orbit_kpu7iz.png');
     background-position: 0px 0px;
     background-size: contain;
 }
@@ -345,7 +351,105 @@ a:hover {
     left: 15px;
 }
 
+.our-services-text {
+    margin: 5px 30px 30px;
+    color: #292e47;
+}
+
 /* Section 5 - Any questions */
 #any-questions {
+    margin: auto;
     margin-top: 200px;
+    max-width: 1320px;
+    height: 500px;
+    background-color: #ffc600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#any-questions h3 {
+    margin: 20px;
+}
+
+#any-questions p {
+    color: #6b708d;
+    margin: 0;
+}
+
+#form-input {
+    max-width: 500px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-input {
+    max-width: 600px;
+    min-width: 300px;
+    margin-right: 20px;
+    height: 60px;;
+    display: flex;
+    background-color: white;
+    border: 1px solid #F2F4FC;
+}
+
+.mail-input img {
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mail {
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 200px;
+    height: 60%;
+    padding: 0;
+}
+
+.blue-button2 {
+    height: 60px;
+    background-color: #072AC8;
+    color: #FFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+.blue-button2:hover{
+    background-color: #292e47;
+    color: #FFF;
+}
+
+/* Footer */
+footer {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name-and-adress p {
+    margin: 5px;
+    color: #6B708D;
+}
+
+#name-and-adress img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+#footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
 }
