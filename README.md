@@ -1,24 +1,24 @@
-# ironhack-mid-term-project
+# Ironhack Front-end Bootcamp
+## Mid-term project
 
-### Project description
+<br>
+#### Project description
 
 <br>
 
-Build a website for a fictional web design company. This includes a few pages:
+This project consisted in copying a provided website from scratch, without using any frameworks. Just HTML, CSS and Vanilla Javascript. 
 
-- A home,
-- A “project” page and
-- A contact page with a form.
-- Some of the challenges you’ll have to complete will be the following:
-  - adding navigation between the pages.
-  - making all the fields in the contact form required before being able to submit it.
-  - (bonus) adding animations to different sections, like the “recent projects” cards.
+- Some of the features are:
+  - Main page with different sections. A section in it with fetched information from a given API
+  - Contact us form, posting the information to an API and showing on screen if the posting was satisfactory
+  - Project page, with its information fetched from a given API
+  - Hamburger menu. Could have been done with JS, but in this case is just CSS.
 
-<br><br><br>
+<br><br>
 
-The final product of the website to be created is the following:
+The website to be copied is the following: https://circle-agency-35d27e.webflow.io/
 
-https://circle-agency-35d27e.webflow.io/
+The resulting copied website is the following: link not ready
 
 
 
